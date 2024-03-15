@@ -1,5 +1,7 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering;
+using Unity.Collections;
 
 public delegate void SaveLightProbeDelegate(string name);
 public delegate void LerpLightProbesDelegate(LightProbes probeA, LightProbes probeB, LightProbes probeC, float lerp);

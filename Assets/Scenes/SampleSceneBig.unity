@@ -10530,12 +10530,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TriggerSave: 0
   TriggerLerp: 0
+  TriggerLerpOptimized: 0
   BackToProbe1: 0
   BackToProbe2: 0
   probe1: {fileID: 25800000, guid: 25ba66441a66b0e4995950af63463a23, type: 2}
   probe2: {fileID: 25800000, guid: 5a3cf4ff47673e848b3e137b902bd564, type: 2}
-  LerpVal: 0.635
+  LerpVal: 0.698809
   SaveName: LightProbesBig2
+  TriggerInitNativeArray: 0
 --- !u!4 &1298800772
 Transform:
   m_ObjectHideFlags: 0
