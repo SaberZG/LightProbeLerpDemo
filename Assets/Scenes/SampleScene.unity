@@ -4845,6 +4845,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1298800772}
   - component: {fileID: 1298800771}
+  - component: {fileID: 1298800773}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -4887,6 +4888,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1298800773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1298800770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64ca078452f74d342b661520c1d93943, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TriggerLerpOptimized: 1
+  probe1: {fileID: 25800000, guid: 33ad485c63005b847b672112118cab77, type: 2}
+  probe2: {fileID: 25800000, guid: f401b1eceec813c4cb4cdecc95a7833d, type: 2}
+  LerpVal: 0.45501712
+  TriggerInitNativeArray: 0
 --- !u!1 &1305784823
 GameObject:
   m_ObjectHideFlags: 0

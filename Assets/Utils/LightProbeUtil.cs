@@ -1,11 +1,14 @@
-using System;
+/*
+* @aAuthor: SaberGodLY
+* @Description: 线性内插光照探针相关方法合计
+* @Date: 2024年03月14日
+*/
 using UnityEngine;
 using UnityEngine.Rendering;
 using SHTools;
 using Unity.Collections;
 using Unity.Jobs;
 using Unity.Burst;
-
 
 [BurstCompile]
 public struct Job_LerpSphericalharmonicsL2 : IJob
@@ -25,6 +28,7 @@ public struct Job_LerpSphericalharmonicsL2 : IJob
 
 public class LightProbeUtil
 {
+    // 测试函数
     public static void LerpLightProbes(LightProbes probeA, LightProbes probeB, LightProbes probeC, float lerp)
     {
         var coeffA = probeA.bakedProbes;
